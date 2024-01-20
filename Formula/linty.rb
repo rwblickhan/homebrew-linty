@@ -1,13 +1,13 @@
 class Linty < Formula
   desc "Simple, language-agnostic linter"
   if Hardware::CPU.type == :arm
-    url "https://github.com/rwblickhan/linty/releases/download/v0.3.3/linty-aarch64-apple-darwin.tar.gz"
-    sha256 "8be8d0719b921ffd75fe710405d5bdc405399183b11a19d16eebed7cc02e29e4"
+    url "https://github.com/rwblickhan/linty/releases/download/v0.4.0/linty-aarch64-apple-darwin.tar.gz"
+    sha256 "c72cd6c9f0b36953966fa511b228cb8f54fd2d5e9fcd83ef827d10daa63b20ab"
   else
-    url "https://github.com/rwblickhan/linty/releases/download/v0.3.3/linty-x86_64-apple-darwin.tar.gz"
-    sha256 "82df8a253fcd43ea22ca67a0532f2bd5c994f40e92874d9cc0d8170983a701ac"
+    url "https://github.com/rwblickhan/linty/releases/download/v0.4.0/linty-x86_64-apple-darwin.tar.gz"
+    sha256 "5a70fb8f4bff4884baffd69797d75fde553f0a98b973423cee57fe204d1de3c0"
   end
-  version "0.3.3"
+  version "0.4.0"
   license "MIT"
 
   def install
